@@ -1,0 +1,160 @@
+/* box sizing: http://www.paulirish.com/2012/box-sizing-border-box-ftw */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* http://snook.ca/archives/html_and_css/font-size-with-rem */
+    color: #111;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    /* sticky footer */
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Default font-size */
+    font-size: 1.6rem;
+
+    /* sticky footer - match footer height */
+    margin-bottom: 60px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+
+section#main {
+    max-width: 600px;
+    width: 100%;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #eee;
+
+    /* sticky footer */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px; /* Vertically center the text */
+}
+
+/*----------------------------------------------------
+Bootstrap overrides
+-----------------------------------------------------*/
+a:link, a:visited, a:active, a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    font-size: 1.5rem;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+.errors ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+/*----------------------------------------------------
+Forms
+-----------------------------------------------------*/
+label {
+    font-weight: bold;
+    display: block;
+    font-size: 1.4rem;
+}
+
+input[type='dropdown'], input[type='checkbox'] {
+    margin-right: 0;
+    /* Next two lines prevent misalignment with text */
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+input[type=text] {
+    display: block;
+    font-family: Consolas, Courier, monospace;
+}
+
+.instructions {
+    color:grey;
+    font-size:10px;
+    margin-bottom:10px;
+}
+
+/*----------------------------------------------------
+media
+-----------------------------------------------------*/
+input[name=userName] {
+    width: 300px;
+}
+
+ul.books {
+    list-style-type: inline;
+    padding: 0;
+}
+
+li.book {
+    border: 1px solid silver;
+    margin: 0 0 15px 0;
+    padding: 10px;
+}
+
+ul.comics {
+    list-style-type: inline;
+    padding: 0;
+}
+
+li.comic {
+    border: 1px solid silver;
+    margin: 0 0 15px 0;
+    padding: 10px;
+}
+
+ul.videos {
+    list-style-type: inline;
+    padding: 0;
+}
+
+li.video {
+    border: 1px solid silver;
+    margin: 0 0 15px 0;
+    padding: 10px;
+}
+
+ul.musics {
+    list-style-type: inline;
+    padding: 0;
+}
+
+li.music {
+    border: 1px solid silver;
+    margin: 0 0 15px 0;
+    padding: 10px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.author {
+    font-style: italic;
+}

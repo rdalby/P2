@@ -1,0 +1,38 @@
+{
+  "mad":
+  {
+    "id" : 0,
+    "title": "The Angry Birds Movie",
+    "producer": "Sony Pictures Home Entertainment",
+    "cover_url" : "https://images-na.ssl-images-amazon.com/images/I/91rMkwYeWPL._SX342_.jpg",
+    "purchase_url" : "https://www.amazon.com/Angry-Birds-Movie-Blu-ray/dp/B01EK44M64/ref=sr_1_6?keywords=the+angry+birds+movie&qid=1551321606&s=gateway&sr=8-6"
+  },
+  "sad":  {
+    "id" : 1,
+    "title": "The Iron Giant",
+    "producer": "WarnerBrothers",
+    "cover_url" : "https://images-na.ssl-images-amazon.com/images/I/51CD4VDQHQL._SY445_.jpg",
+    "purchase_url" : "https://www.amazon.com/Iron-Giant-Special-Eli-Marienthal/dp/B00009M9BK/ref=sr_1_4?keywords=iron+giant+movie&qid=1551321479&s=gateway&sr=8-4"
+  },
+  "excited": {
+    "id": 2,
+    "title": "Inside Out",
+    "producer": "Walt Disney Studios",
+    "cover_url": "https://images-na.ssl-images-amazon.com/images/I/51lwAufa7KL._SY445_.jpg",
+    "purchase_url": "https://www.amazon.com/Inside-Out-1-Disc-DVD-Poehler/dp/B013FAF96G/ref=sr_1_4?keywords=inside+out+movie&qid=1551321103&s=gateway&sr=8-4"
+  },
+  "meh": {
+    "id": 3,
+    "title": "The Emoji Movie",
+    "producer": "Sony Pictures Home Entertainment",
+    "cover_url": "https://images-na.ssl-images-amazon.com/images/I/91EXvcYtRJL._SY445_.jpg",
+    "purchase_url": "https://www.amazon.com/Emoji-Movie-James-Corden/dp/B0746ZDXSP/ref=sr_1_6?keywords=emoji+movie&qid=1551321379&s=gateway&sr=8-6"
+  },
+  "happy": {
+    "id": 4,
+    "title": "Sing",
+    "producer": "Universal Pictures Home Entertainment",
+    "cover_url": "https://images-na.ssl-images-amazon.com/images/I/81WxsdkPYrL._SY445_.jpg",
+    "purchase_url": "https://www.amazon.com/Sing-Matthew-McConaughey/dp/B01LTI0P24/ref=sr_1_3?keywords=sing+movie&qid=1551321277&s=gateway&sr=8-3"
+  }
+}

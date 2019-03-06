@@ -1,0 +1,33 @@
+{
+  "mad":
+  {
+    "id" : 0,
+    "title": "Not off to a good start.",
+    "author": "Marvin",
+    "cover_url" : "http://comicskingdom.com/system/top_ten_comics/images/1752/original-Marvin.20140109.jpg?1545422074"
+     },
+  "sad":  {
+    "id" : 1,
+    "title": "Zits Nov",
+    "author": "Jerry Scott and Jim Borgman",
+    "cover_url" : "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9aaXRzLzIwMTgvMTEvWml0cy4yMDE4MTExMF8xNDQwLmdpZg=="
+     },
+  "excited": {
+    "id": 2,
+    "title": "Master of the Universe",
+    "author": "PHD Comics",
+    "cover_url": "http://phdcomics.com/comics/archive/phd113007s.gif"
+    },
+  "happy": {
+    "id": 3,
+    "title": "Peanuts",
+    "author": "Charles Schulz",
+    "cover_url": "https://www.fluentu.com/blog/english/wp-content/uploads/sites/4/2018/07/learning-english-through-comics-1.png"
+   },
+  "meh": {
+    "id": 4,
+    "title": "Zits Sept",
+    "author": "Jerry Scott and Jim Borgman",
+    "cover_url": "https://safr.kingfeatures.com/idn/cnfeed/zone/js/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9aaXRzLzIwMTkvMDIvWml0cy4yMDE5MDIyN185MDAuZ2lm"
+  }
+}

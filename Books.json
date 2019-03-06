@@ -1,0 +1,38 @@
+{
+ "mad":
+    {
+      "id" : 0,
+      "title": "Harry Potter and the Sorcerers Stone",
+      "author": "J.K. Rowling",
+      "cover_url" : "https://images-na.ssl-images-amazon.com/images/I/51HSkTKlauL._SX346_BO1,204,203,200_.jpg",
+      "purchase_url" : "https://www.amazon.com/Harry-Potter-Sorcerers-Stone-Rowling/dp/059035342X/ref=sr_1_1?crid=1NJ4FZ7ICZ7SY&keywords=harry+potter+scorcerer%27s+stone+book&qid=1551301343&s=gateway&sprefix=harry+potter+scor%2Caps%2C857&sr=8-1"
+    },
+  "sad":  {
+      "id" : 1,
+     "title": "Let’s Explore Diabetes with Owls",
+      "author": "David Sedaris",
+      "cover_url" : "https://images-na.ssl-images-amazon.com/images/I/41boA-KjlwL._SX331_BO1,204,203,200_.jpg",
+      "purchase_url" : "https://www.amazon.com/gp/product/0316154709?imprToken=Jc0OIbACcb5QH9DhXVlQFw&slotNum=1&ie=UTF8&camp=1789&creativeASIN=0316154709&linkCode=xm2&tag=bustle621-20"
+    },
+   "excited": {
+       "id": 2,
+     "title": "Where’d You Go, Bernadette",
+       "author": "Maria Semple",
+        "cover_url": "https://images-na.ssl-images-amazon.com/images/I/41jZQywZjHL._SY346_.jpg",
+        "purchase_url": "https://www.amazon.com/Whered-You-Go-Bernadette-Novel-ebook/dp/B006L8942U?_bbid=64666&tag=unrecognizedsite-20"
+    },
+  "meh": {
+    "id": 3,
+    "title": "The Perks of Being a Wallflower ",
+    "author": "Stephen Chbosky",
+    "cover_url": "https://images-na.ssl-images-amazon.com/images/I/41pwDQ15SrL._SX353_BO1,204,203,200_.jpg",
+    "purchase_url": "https://www.amazon.com/Perks-Being-Wallflower-Stephen-Chbosky/dp/0671027344?creativeASIN=0671027344&linkCode=w50&tag=self01b-20&imprToken=sBgJst-tbW44J7J9TJD9IQ&slotNum=3"
+  },
+  "happy": {
+    "id": 4,
+    "title": "Me Talk Pretty One Day",
+    "author": "David Sedaris",
+    "cover_url": "https://images-na.ssl-images-amazon.com/images/I/41vIEie4W8L._SX331_BO1,204,203,200_.jpg",
+    "purchase_url": "https://www.amazon.com/Me-Talk-Pretty-One-Day/dp/0316776963/ref=sr_1_3?creativeASIN=0316776963&linkCode=w50&tag=self01b-20&imprToken=sBgJst-tbW44J7J9TJD9IQ&slotNum=7&s=books&ie=UTF8&qid=1516295057&sr=1-3&keywords=me%20talk%20pretty%20one%20day"
+  }
+}

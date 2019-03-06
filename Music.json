@@ -1,0 +1,33 @@
+{
+  "mad":
+  {
+    "id" : 0,
+    "title": "Natural",
+    "artist": "Imagine Dragons",
+    "song_url" : "https://www.youtube.com/embed/0I647GU3Jsc"
+  },
+  "sad":  {
+    "id" : 1,
+    "title": "Happier",
+    "artist": "Marshmello ft. Bastille",
+    "song_url" : "https://www.youtube.com/embed/m7Bc3pLyij0"
+  },
+  "excited": {
+    "id": 2,
+    "title": "Thunder",
+    "artist": "Imagine Dragons",
+    "song_url": "https://www.youtube.com/embed/fKopy74weus"
+  },
+  "meh": {
+    "id": 2,
+    "title": "Believer",
+    "artist": "Imagine Dragons",
+    "song_url": "https://www.youtube.com/embed/7wtfhZwyrcc"
+  },
+  "happy": {
+    "id": 2,
+    "title": "Glory",
+    "artist": "Bastille",
+    "song_url": "https://www.youtube.com/embed/zxJCMOMx550"
+  }
+}

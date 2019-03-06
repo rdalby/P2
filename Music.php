@@ -24,7 +24,7 @@ class Music
 	{
 		$results = [];
 
-		# Filter book data according to search term
+		# Filter book data according to mood
 
 		foreach ($this->musics as $mood => $music) {
 

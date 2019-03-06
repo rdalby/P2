@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: rache
+ * User: rachel
  * Date: 2/27/2019
  * Time: 5:24 PM
  */
@@ -21,7 +21,7 @@ $hasErrors = false;
 if (isset($_SESSION['results'])) {
 	$results = $_SESSION['results'];
 
-	 extract($results);
+	extract($results);
 	#
 	# http://php.net/manual/en/function.extract.php
 }

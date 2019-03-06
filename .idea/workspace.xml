@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34ef63ea-7797-41ad-af3d-e18dd26dbbc0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Book.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Books.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Comic.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Comics.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logic.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Music.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Music.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Video.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Videos.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/Book.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.json" beforeDir="false" afterPath="$PROJECT_DIR$/Books.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Comic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Logic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Music.php" beforeDir="false" afterPath="$PROJECT_DIR$/Music.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Video.php" beforeDir="false" afterPath="$PROJECT_DIR$/Video.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,29 +20,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2788">
-              <caret line="164" column="30" selection-start-line="164" selection-start-column="30" selection-end-line="164" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/styles/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="3060">
+              <caret line="180" column="9" lean-forward="true" selection-start-line="180" selection-start-column="9" selection-end-line="180" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Books.json">
+        <entry file="file://$PROJECT_DIR$/Form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="136">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -54,11 +50,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Logic.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+            <state relative-caret-position="713">
+              <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
               <folding>
                 <element signature="e#432#445#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -90,23 +95,23 @@
         <option value="$PROJECT_DIR$/form.php" />
         <option value="$PROJECT_DIR$/Form.php" />
         <option value="$PROJECT_DIR$/Movies.json" />
-        <option value="$PROJECT_DIR$/search.php" />
-        <option value="$PROJECT_DIR$/Book.php" />
+        <option value="$PROJECT_DIR$/Comics.json" />
+        <option value="$PROJECT_DIR$/Videos.json" />
+        <option value="$PROJECT_DIR$/Music.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/styles/app.css" />
+        <option value="$PROJECT_DIR$/Books.json" />
         <option value="$PROJECT_DIR$/Comic.php" />
         <option value="$PROJECT_DIR$/Video.php" />
         <option value="$PROJECT_DIR$/Music.php" />
+        <option value="$PROJECT_DIR$/Book.php" />
         <option value="$PROJECT_DIR$/Logic.php" />
-        <option value="$PROJECT_DIR$/Comics.json" />
-        <option value="$PROJECT_DIR$/Videos.json" />
         <option value="$PROJECT_DIR$/Index.php" />
-        <option value="$PROJECT_DIR$/Music.json" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Books.json" />
-        <option value="$PROJECT_DIR$/styles/app.css" />
+        <option value="$PROJECT_DIR$/search.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-26" />
     <option name="y" value="59" />
     <option name="width" value="1346" />
@@ -117,7 +122,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,6 +138,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,6 +146,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -182,17 +188,18 @@
       <updated>1551268134912</updated>
       <workItem from="1551268147812" duration="2044000" />
       <workItem from="1551288473771" duration="22557000" />
+      <workItem from="1551896225209" duration="3440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24601000" />
+    <option name="totallyTimeSpent" value="28041000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-26" y="59" width="1346" height="688" extended-state="0" />
+    <frame x="-26" y="59" width="1346" height="688" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2534992" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25738725" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -238,103 +245,18 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_dwa15-php-master.zip/dwa15-php-master/phpinfo.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_dwa15-php-master.zip/dwa15-php-master/today.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_dwa15-php-master.zip/dwa15-php-master/form-test.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_foobooks0-master.zip/foobooks0-master/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="92" column="7" selection-start-line="5" selection-end-line="92" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/books.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_dwa15-php-master.zip/dwa15-php-master/FormTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp2_foobooks0-master.zip/foobooks0-master/Form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp2_foobooks0-master.zip/foobooks0-master/logic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#6#182#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp2_foobooks0-master.zip/foobooks0-master/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#356#375#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1649">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp2_foobooks0-master.zip/foobooks0-master/Book.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="27" column="48" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Movies.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Book.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Video.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp2_foobooks0-master.zip/foobooks0-master/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="75" column="46" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_dwa15-php-master.zip/dwa15-php-master/phpinfo.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_dwa15-php-master.zip/dwa15-php-master/today.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_dwa15-php-master.zip/dwa15-php-master/form-test.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_foobooks0-master.zip/foobooks0-master/index.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/books.json" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_dwa15-php-master.zip/dwa15-php-master/FormTest.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp2_foobooks0-master.zip/foobooks0-master/Form.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp2_foobooks0-master.zip/foobooks0-master/logic.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp2_foobooks0-master.zip/foobooks0-master/search.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp2_foobooks0-master.zip/foobooks0-master/Book.php" />
+    <entry file="file://$PROJECT_DIR$/Movies.json" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp2_foobooks0-master.zip/foobooks0-master/index.php" />
     <entry file="file://$PROJECT_DIR$/Comics.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
@@ -349,41 +271,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Comic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Music.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Music.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Logic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
-          <folding>
-            <element signature="e#432#445#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -395,24 +286,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Index.php">
+    <entry file="file://$PROJECT_DIR$/Books.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2788">
-          <caret line="164" column="30" selection-start-line="164" selection-start-column="30" selection-end-line="164" selection-end-column="30" />
+        <state relative-caret-position="609">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Books.json">
+    <entry file="file://$PROJECT_DIR$/Comic.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        <state relative-caret-position="-204">
+          <caret selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275">
+          <caret selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Music.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+          <folding>
+            <element signature="e#432#445#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="180" column="9" lean-forward="true" selection-start-line="180" selection-start-column="9" selection-end-line="180" selection-end-column="9" />
         </state>
       </provider>
     </entry>

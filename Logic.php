@@ -51,7 +51,6 @@ $videos = $video->getByTitle($mood);
 $musics = $music->getByTitle($mood);
 
 
-
 # Storing data into the session to be grabbed by other pages
 $_SESSION['results'] = [
 	'userName' => $userName,
@@ -65,8 +64,6 @@ $_SESSION['results'] = [
 	'musics' => $musics ?? null,
 	'musicCount' => isset($musics) ? count($musics) : 0,
 ];
-
-
 
 
 # Redirect back to the form on index.php

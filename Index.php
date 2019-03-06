@@ -74,7 +74,7 @@ require 'search.php';
         </fieldset>
 
         <input type='submit' value='Search' class='btn btn-primary'>
-<!--
+        <!--
         <?php if ($hasErrors): ?>
             <div class='errors alert alert-danger'>
                 <ul>
@@ -86,39 +86,41 @@ require 'search.php';
         <?php endif ?>
 -->
     </form>
-<!--
+    <!--
     <?php if (!$hasErrors): ?>
--->        <div id='results'>
-            <?php if (isset($userName)): ?>
-                <div class='alert alert-primary' role='alert'>
-                    Hi <em><?= $userName ?></em> you said your mood was <em><?= $mood ?></em> below is the media that matches!
-                </div>
-            <?php endif; ?>
+-->
+    <div id='results'>
+		<?php if (isset($userName)): ?>
+            <div class='alert alert-primary' role='alert'>
+                Hi <em><?= $userName ?></em> you said your mood was <em><?= $mood ?></em> below is the media that
+                matches!
+            </div>
+		<?php endif; ?>
 
-            <?php if (isset($bookCount) and $bookCount == 0): ?>
-                <div class='alert alert-warning' role='alert'>
-                    No results found
-                </div>
-            <?php endif; ?>
+		<?php if (isset($bookCount) and $bookCount == 0): ?>
+            <div class='alert alert-warning' role='alert'>
+                No results found
+            </div>
+		<?php endif; ?>
 
-            <?php if (isset($books)): ?>
-                <ul class='books'>
-                    <?php foreach ($books as $mood => $book): ?>
-                        <li class='book'>
-                            <div class='title'><?= $book['title'] ?></div>
-                            <div class='author'>
-                                by <?= $book['author'] ?>
-                            </div>
-                            <div class='cover'>
-                                <img src='<?= $book['cover_url'] ?>' alt='Comic image <?= $mood ?>'>
-                            </div>
-                            <div class='buyNow'>
+		<?php if (isset($books)): ?>
+            <ul class='books'>
+				<?php foreach ($books as $mood => $book): ?>
+                    <li class='book'>
+                        <div class='title'><?= $book['title'] ?></div>
+                        <div class='author'>
+                            by <?= $book['author'] ?>
+                        </div>
+                        <div class='cover'>
+                            <img src='<?= $book['cover_url'] ?>' alt='Book image <?= $mood ?>'>
+                        </div>
+                        <div class='buyNow'>
                             <a href='<?= $book['purchase_url'] ?>'> Buy now!</a>
-                            </div>
-                        </li>
-                    <?php endforeach ?>
-                </ul>
-            <?php endif ?>
+                        </div>
+                    </li>
+				<?php endforeach ?>
+            </ul>
+		<?php endif ?>
 		<?php if (isset($comics)): ?>
             <ul class='comics'>
 				<?php foreach ($comics as $mood => $comic): ?>
@@ -161,13 +163,15 @@ require 'search.php';
                             by <?= $music['artist'] ?>
                         </div>
                         <div class='cover'>
-                            <iframe width="560" height="315" src='<?= $music['song_url'] ?>' frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src='<?= $music['song_url'] ?>' frameborder="0"
+                                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
                         </div>
                     </li>
 				<?php endforeach ?>
             </ul>
 		<?php endif ?>
-        </div><!--
+    </div><!--
     <?php endif; ?>
 -->
 </section>

@@ -24,7 +24,7 @@ class Comic
 	{
 		$results = [];
 
-		# Filter book data according to search term
+		# Filter book data according to mood
 
 		foreach ($this->comics as $mood => $comic) {
 

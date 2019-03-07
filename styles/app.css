@@ -21,6 +21,8 @@ body {
 
     /* sticky footer - match footer height */
     margin-bottom: 60px;
+    background: teal;
+
 }
 
 img {
@@ -30,10 +32,29 @@ img {
     height: 200px;
 }
 
+img#comicImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+}
+
+fieldset {
+    align-content: center;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
 section#main {
     max-width: 600px;
     width: 100%;
     margin: 20px;
+    text-align: center;
 }
 
 footer {
@@ -46,6 +67,14 @@ footer {
     width: 100%;
     height: 60px;
     line-height: 60px; /* Vertically center the text */
+}
+
+h1 {
+    color: silver;
+}
+
+p {
+    color: silver;
 }
 
 /*----------------------------------------------------
@@ -72,6 +101,11 @@ a:link, a:visited, a:active, a:hover {
 /*----------------------------------------------------
 Forms
 -----------------------------------------------------*/
+form {
+    background: silver;
+    margin: 0 auto;
+}
+
 label {
     font-weight: bold;
     display: block;
@@ -87,17 +121,21 @@ input[type='dropdown'], input[type='checkbox'] {
 
 fieldset {
     margin-bottom: 20px;
+    background: silver;
 }
 
 input[type=text] {
     display: block;
     font-family: Consolas, Courier, monospace;
+    margin: 0 auto;
 }
 
 .instructions {
-    color:grey;
-    font-size:10px;
-    margin-bottom:10px;
+    color: teal;
+    font-size: 10px;
+    margin-bottom: 10px;
+    border: 1px solid silver;
+    background: silver;
 }
 
 /*----------------------------------------------------
@@ -105,6 +143,7 @@ media
 -----------------------------------------------------*/
 input[name=userName] {
     width: 300px;
+    margin: 0 auto;
 }
 
 ul.books {
@@ -116,6 +155,7 @@ li.book {
     border: 1px solid silver;
     margin: 0 0 15px 0;
     padding: 10px;
+    background: silver;
 }
 
 ul.comics {
@@ -127,6 +167,7 @@ li.comic {
     border: 1px solid silver;
     margin: 0 0 15px 0;
     padding: 10px;
+    background: silver;
 }
 
 ul.videos {
@@ -138,6 +179,7 @@ li.video {
     border: 1px solid silver;
     margin: 0 0 15px 0;
     padding: 10px;
+    background: silver;
 }
 
 ul.musics {
@@ -149,6 +191,7 @@ li.music {
     border: 1px solid silver;
     margin: 0 0 15px 0;
     padding: 10px;
+    background: silver;
 }
 
 .title {

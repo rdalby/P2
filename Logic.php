@@ -44,15 +44,34 @@ $videoCheck = $form->has('video');
 $musicCheck = $form->has('music');
 
 
-#going to get a function
-$books = $book->getByTitle($mood);
-$comics = $comic->getByTitle($mood);
-$videos = $video->getByTitle($mood);
-$musics = $music->getByTitle($mood);
+# Validate the form data
+$errors = $form->validate([
+	'userName' => 'required|alphaNumeric',
+	'mood' => 'required'
+]);
 
+#if form doesn't have errors it goes through the next little bit of processing
+if (!$form->hasErrors) {
 
+#going to get a function if the checkbox was not selected then it doesn't go into the respecting functions
+
+	if ($bookCheck == true) {
+		$books = $book->getByTitle($mood);
+	}
+	if ($comicCheck == true) {
+		$comics = $comic->getByTitle($mood);
+	}
+	if ($videoCheck == true) {
+		$videos = $video->getByTitle($mood);
+	}
+	if ($musicCheck == true) {
+		$musics = $music->getByTitle($mood);
+	}
+}
 # Storing data into the session to be grabbed by other pages
 $_SESSION['results'] = [
+	'errors' => $errors,
+	'hasErrors' => $form->hasErrors,
 	'userName' => $userName,
 	'mood' => $mood,
 	'books' => $books ?? null,
@@ -63,6 +82,10 @@ $_SESSION['results'] = [
 	'videoCount' => isset($videos) ? count($videos) : 0,
 	'musics' => $musics ?? null,
 	'musicCount' => isset($musics) ? count($musics) : 0,
+	'comicCheck' => $comicCheck,
+	'bookCheck' => $bookCheck,
+	'videoCheck' => $videoCheck,
+	'musicCheck' => $musicCheck
 ];
 
 
